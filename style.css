@@ -1,0 +1,259 @@
+html, body {
+  height: 100%;
+  background: #000;
+}
+html .hero, body .hero {
+  background: #1e1d1d !important;
+  position: relative;
+  max-width: 1500px;
+  box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 736px) {
+  html .hero, body .hero {
+    max-width: 736px;
+  }
+}
+html .hero .hero-body, body .hero .hero-body {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 4rem !important;
+  padding-top: 4.5rem !important;
+}
+@media screen and (max-width: 1500px) {
+  html .hero .hero-body, body .hero .hero-body {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+html .hero .hero-body .container, body .hero .hero-body .container {
+  width: 100%;
+}
+html .hero .hero-body .container .home-intro, body .hero .hero-body .container .home-intro {
+  font-size: 60px;
+  letter-spacing: 8px;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+html .hero .hero-body .nav, body .hero .hero-body .nav {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  box-shadow: 0px 0px 0px !important;
+}
+html .hero .hero-body .nav .nav-item .fa-bars, body .hero .hero-body .nav .nav-item .fa-bars {
+  color: #ce2424;
+  font-size: 40px;
+}
+html .hero .hero-body .nav .nav-item .tag, body .hero .hero-body .nav .nav-item .tag {
+  font-size: 15px;
+}
+html .hero .hero-body .nav .nav-item .title, body .hero .hero-body .nav .nav-item .title {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+html .hero .hero-body .nav .nav-right .nav-item, body .hero .hero-body .nav .nav-right .nav-item {
+  float: right;
+}
+html .hero .hero-body .column, body .hero .hero-body .column {
+  padding-left: 50px;
+  min-height: 364px;
+}
+html .hero .hero-body .column .title, body .hero .hero-body .column .title {
+  margin: 20px auto;
+  font-size: 45px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1500px) {
+  html .hero .hero-body .column .title, body .hero .hero-body .column .title {
+    font-size: 35px;
+  }
+}
+html .hero .hero-body .column .subtitle, body .hero .hero-body .column .subtitle {
+  margin: 20px auto;
+  font-size: 15px;
+  font-weight: 600;
+  color: red;
+}
+@media screen and (max-width: 736px) {
+  html .hero .hero-body .column .subtitle, body .hero .hero-body .column .subtitle {
+    font-size: 14px;
+  }
+}
+html .hero .hero-body .column .subtitle .subtitle-tag, body .hero .hero-body .column .subtitle .subtitle-tag {
+  display: inline;
+}
+html .hero .hero-body .column .description, body .hero .hero-body .column .description {
+  margin-top: 20px auto;
+  font-size: 15px;
+  margin-bottom: 24px;
+  max-width: 450px;
+  color: #B0BEC5;
+}
+html .hero .hero-body .column .description:hover, body .hero .hero-body .column .description:hover {
+  color: #fff;
+}
+html .hero .hero-body .column .links .play-button, body .hero .hero-body .column .links .play-button {
+  background: #ce2424;
+  color: #FFF;
+  border-radius: 10px;
+  border: 0px;
+  margin-right: 20px;
+  padding-right: 17px;
+}
+html .hero .hero-body .column .links .play-button:hover, body .hero .hero-body .column .links .play-button:hover {
+  background: none;
+  text-decoration: none;
+}
+html .hero .hero-body .column .links .play-button .fa-play, body .hero .hero-body .column .links .play-button .fa-play {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+@media screen and (max-width: 736px) {
+  html .hero .hero-body .column .links .play-button, body .hero .hero-body .column .links .play-button {
+    font-size: 14px;
+  }
+}
+html .hero .hero-body .column .links .favorites-button, body .hero .hero-body .column .links .favorites-button {
+  text-decoration: none;
+  color: #FFF;
+  background: #263238;
+  border-radius: 10px;
+  border: 0px;
+  padding: 17px;
+}
+html .hero .hero-body .column .links .favorites-button:hover, body .hero .hero-body .column .links .favorites-button:hover {
+  background: none;
+  text-decoratio0: none;
+}
+html .hero .hero-body .column .links .favorites-button .fa-plus-square-o, body .hero .hero-body .column .links .favorites-button .fa-plus-square-o {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+@media screen and (max-width: 736px) {
+  html .hero .hero-body .column .links .favorites-button, body .hero .hero-body .column .links .favorites-button {
+    background: #FFF;
+    color: #4a4a4a;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  html .hero .hero-body .column .links .favorites-button:hover, body .hero .hero-body .column .links .favorites-button:hover {
+    background: #FFF;
+  }
+}
+@media screen and (max-width: 736px) {
+  html .hero .hero-body .column .links, body .hero .hero-body .column .links {
+    text-align: center;
+  }
+}
+html .hero .trailer-body, body .hero .trailer-body {
+  padding: 0;
+  height: 376px;
+}
+html .hero .hero-foot, body .hero .hero-foot {
+  background: linear-gradient(to bottom right, #3E2723, #000);
+}
+html .hero .hero-foot .columns, body .hero .hero-foot .columns {
+  padding: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+html .hero .hero-foot .columns .movie-choice, body .hero .hero-foot .columns .movie-choice {
+  position: relative;
+  list-style: none;
+  cursor: grabbing;
+}
+html .hero .hero-foot .columns .movie-choice .favorite-check, body .hero .hero-foot .columns .movie-choice .favorite-check {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 1;
+  color: #fcff4c;
+}
+@media (max-width: 736px) {
+  html .hero .hero-foot .columns .movie-choice .favorite-check, body .hero .hero-foot .columns .movie-choice .favorite-check {
+    position: initial;
+    display: block;
+  }
+}
+html .hero .hero-foot .columns .movie-choice img, body .hero .hero-foot .columns .movie-choice img {
+  opacity: 1;
+}
+html .hero .hero-foot .columns .movie-choice .movie-title:active, body .hero .hero-foot .columns .movie-choice .movie-title:active {
+  font-weight: 600;
+}
+html .appreciation-tag, body .appreciation-tag {
+  color: #FFF;
+  text-align: center;
+}
+html .appreciation-tag a, body .appreciation-tag a {
+  color: #ce2424;
+  font-weight: 600;
+}
+html .github-section, body .github-section {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+html .github-section .fa-github, body .github-section .fa-github {
+  color: #FFF;
+  font-size: 30px;
+}
+html .medium-section, body .medium-section {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+html .medium-section .fa-medium, body .medium-section .fa-medium {
+  font-size: 15px;
+}
+html .vertical-align, html html, html body, body .vertical-align, body html, body body {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+html .movie-title-active, body .movie-title-active {
+  font-size: 18px;
+  font-weight: 600;
+}
+html .iframe-box, body .iframe-box {
+  max-width: 1500px;
+  /* video width */
+  max-height: 900px;
+  /* video height */
+}
+html .favorite-shadow, body .favorite-shadow {
+  box-shadow: 0 0 50px 15px rgba(251, 255, 15, 0.25);
+}
+html .desktop, body .desktop {
+  display: block;
+}
+@media screen and (max-width: 736px) {
+  html .desktop, body .desktop {
+    display: none;
+  }
+}
+html .mobile, body .mobile {
+  display: none;
+}
+@media screen and (max-width: 736px) {
+  html .mobile, body .mobile {
+    display: block;
+  }
+}
+html .hide, body .hide {
+  display: none;
+}

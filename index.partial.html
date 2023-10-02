@@ -1,0 +1,22 @@
+  <div id="app">
+    <section class="hero is-primary is-medium">
+      <router-view></router-view>
+
+      <div class="hero-foot">
+        <div class="columns is-mobile">
+          <div v-for="movieChoice in movieChoices" class="column">
+            <router-link :to="`/${movieChoice.id}`" tag="li" class="movie-choice">
+              <i :class="[{ 'fa fa-check-circle favorite-check': movieChoice.favorite }]" aria-hidden="true"></i>
+              <img :src="`${movieChoice.smallImgSrc}`" class="desktop"/>
+              <p class="mobile movie-title">{{ movieChoice.subtitle }}</p>
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <a href="https://github.com/Nalini1998" target="_blank" class="github-section">
+      <i class="fa fa-github" aria-hidden="true"></i>
+    </a>
+  </div>
+      
